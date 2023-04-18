@@ -20,6 +20,7 @@ class ImageCell: UICollectionViewCell {
 
     private func configSubView() {
         downloadButton.roundCorners(with: 15)
+        downloadButton.addShadow()
     }
 
     private func setupButtonTarget() {
